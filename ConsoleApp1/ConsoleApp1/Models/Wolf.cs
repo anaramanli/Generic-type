@@ -35,7 +35,7 @@ namespace ConsoleApp1.Models
                 ((Animal)prey).Hp = 0;
             }
         }
-        public int Attack(Animal prey)
+        /*public int Attack(Animal prey)
         {
             if (prey.Hp > 0)
             {
@@ -44,7 +44,7 @@ namespace ConsoleApp1.Models
             }
 
             return prey.Hp;
-        }
+        }*/
         public Wolf(byte avgLifeTime, string breed, int hp, bool isPride, int attackDamage, Gender animalGender) : base(avgLifeTime, breed, hp,animalGender)
         {
             IsPrideLeader = isPride;
