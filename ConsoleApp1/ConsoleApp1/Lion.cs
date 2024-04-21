@@ -13,9 +13,23 @@ namespace ConsoleApp1
         {
         }
 
+        
         public override void Hunt<T>(T prey)
         {
-            Console.WriteLine($"The lion is hunting {prey.}!");
+            /*Console.WriteLine($"Telebe parcalandi !");*/
+
         }
+        /*public void Attack(Student prey)
+        {
+            if ((IsPlagiated || IsHelpedToPlagiate))
+            {
+                Console.WriteLine("Telebe parcalandi");
+            }
+            else
+            {
+                Console.WriteLine("Telebe agillidi");
+            }
+        }*/
     }
 }
+

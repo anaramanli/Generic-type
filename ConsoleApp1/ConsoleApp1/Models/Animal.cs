@@ -22,7 +22,7 @@ namespace ConsoleApp1.Models
             get => _avgLifeTime;
             set
             {
-                if (value > 0)
+                if (value > 0 || value < 500)
                 {
                     _avgLifeTime = value;
                 }
