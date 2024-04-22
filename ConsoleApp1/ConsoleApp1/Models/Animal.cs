@@ -63,7 +63,7 @@ namespace ConsoleApp1.Models
         public abstract void Hunt<T>(T prey) where T : Animal;
 
     }
-    internal class ZooCage<T, U> where T : Animal where U : Food
+    internal class ZooCage<T, U> where T : Animal,new() where U : Food,new() //new yazmamisdim ozum ucun qeyd
     {
         private T _animal;
         private U _food;
